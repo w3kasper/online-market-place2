@@ -8,7 +8,7 @@ export default function Home() {
   const hello = api.post.hello.useQuery({ text: "from tRPC" });
 
   const user = useUser();
-  console.log({ user });
+  // console.log({ user });
 
   return (
     <>
